@@ -8304,7 +8304,7 @@ fieldset:disabled .btn {
       rgba(50, 50, 50, 0.8),
       rgba(30, 30, 30, 0.9)
     ),
-    url("/assets/img/background/joan-gamell-ZS67i1HLllo-unsplash.jpg") !important;
+    url("/assets/img/background/background-head.png") !important;
   /* Cria uma imagem de fundo que contem um degradê (linear-Gradient) [direção, cor 1 e cor 2,] e em seguida o aplica na imagem de fundo */
 }
 
