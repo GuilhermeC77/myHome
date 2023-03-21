@@ -8298,7 +8298,7 @@ fieldset:disabled .btn {
       rgba(50, 50, 50, 0.6),
       rgba(30, 30, 30, 0.8)
     ),
-    url("assets/img/background/background-img.jpg") !important;
+    url("assets/img/background/img-about.png") !important;
   /* Cria uma imagem de fundo que contem um degradê (linear-Gradient) [direção, cor 1 e cor 2,] e em seguida o aplica na imagem de fundo */
 }
 
