@@ -409,8 +409,7 @@ select:disabled {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] 
-button:not(:disabled),
+[type="submit"] button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
@@ -8296,10 +8295,10 @@ fieldset:disabled .btn {
 .bg-custom {
   --bs-bg-opacity: 1;
   background-image: linear-gradient(
-      rgba(50, 50, 50, 0.8),
-      rgba(30, 30, 30, 0.9)
+      rgba(50, 50, 50, 0.6),
+      rgba(30, 30, 30, 0.8)
     ),
-    url("/assets/img/background/background-head.png") !important;
+    url("/assets/img/background/background-img.jpg") !important;
   /* Cria uma imagem de fundo que contem um degradê (linear-Gradient) [direção, cor 1 e cor 2,] e em seguida o aplica na imagem de fundo */
 }
 
