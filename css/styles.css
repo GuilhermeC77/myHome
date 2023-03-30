@@ -8076,27 +8076,27 @@ fieldset:disabled .btn {
 
 .html {
   width: 70%;
-  animation: html 3s;
+  animation: html 0.5s;
 }
 
 .css {
   width: 60%;
-  animation: css 3s;
+  animation: css 0.5s;
 }
 
 .js {
   width: 30%;
-  animation: js 3s;
+  animation: js 0.5s;
 }
 
 .comunicacao {
   width: 90%;
-  animation: comunicacao 3s;
+  animation: comunicacao 0.5s;
 }
 
 .adaptabilidade {
   width: 85%;
-  animation: adaptabilidade 3s;
+  animation: adaptabilidade 0.5s;
 }
 
 @keyframes html {
