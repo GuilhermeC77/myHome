@@ -8052,10 +8052,10 @@ fieldset:disabled .btn {
   /* #e36a2d */
   display: block;
   height: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(69, 122, 255 0.3);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(69, 122, 255 ,0.12), 0 1px 2px rgba(69, 122, 255, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
 }
 
@@ -8069,8 +8069,8 @@ fieldset:disabled .btn {
   float: left;
   background: linear-gradient(
     255deg,
-    rgba(236, 0, 140, 1) 0%,
-    rgba(252, 103, 103, 1) 100%
+    rgba(250, 208, 187, 1) 0%,
+    rgba(230, 135, 87, 1) 100%
   );
 }
 
