@@ -8059,6 +8059,18 @@ fieldset:disabled .btn {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
 }
 
+.bar-blue {
+  background: #353b48;
+  /* #e36a2d */
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(69, 122, 255 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(69, 122, 255 ,0.12), 0 1px 2px rgba(69, 122, 255, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
+}
+
 .bar:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 1px 2px rgba(0, 10px, 10px, 0.22);
@@ -8073,6 +8085,17 @@ fieldset:disabled .btn {
     rgba(230, 135, 87, 1) 100%
   );
 }
+
+.bar-blue span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    255deg,
+    rgba(130, 164, 250, 1) 0%,
+    rgba(0, 83, 159, 1) 100%
+  );
+}
+
 
 .html {
   width: 70%;
