@@ -89,7 +89,7 @@
         <img
           class="masthead-avatar mb-5"
           src="assets/img/avataaars.svg"
-          alt="..."
+          alt="Avatar de Guilherme Cruz"
         />
         <!-- Masthead Heading-->
         <h1 class="masthead-heading text-uppercase mb-0">Guilherme Cruz</h1>
@@ -122,27 +122,27 @@
           <div class="divider-custom-line"></div>
         </div>
         <!-- Portfolio Grid Items-->
-        <div class="row justify-content-center skills">
+        <ul class="row justify-content-center skills list-unstyled">
           <!-- Habilidades Item 1-->
-          <li>
+          <li class="col-md-6 col-lg-5 mb-4">
             <h3>
               HTML<span class="bar"><span class="html"></span></span>
             </h3>
           </li>
 
-          <li>
+          <li class="col-md-6 col-lg-5 mb-4">
             <h3>
               CSS<span class="bar-blue"><span class="css"></span></span>
             </h3>
           </li>
 
-          <li>
+          <li class="col-md-6 col-lg-5 mb-4">
             <h3>
               JavaScript<span class="bar"><span class="js"></span></span>
             </h3>
           </li>
 
-          <li>
+          <li class="col-md-6 col-lg-5 mb-4">
             <h3>
               Comunicação<span class="bar-blue"
                 ><span class="comunicacao"></span
@@ -150,14 +150,14 @@
             </h3>
           </li>
 
-          <li>
+          <li class="col-md-6 col-lg-5 mb-4">
             <h3>
               Adaptabilidade<span class="bar"
                 ><span class="adaptabilidade"></span
               ></span>
             </h3>
           </li>
-        </div>
+        </ul>
       </div>
     </section>
     <!-- About Section-->
@@ -174,15 +174,15 @@
           <div class="divider-custom-line"></div>
         </div>
         <!-- About Section Content-->
-
-        <div class="col-mr-4 text-center">
-          <img
-            src="assets/img/background/img-about.png"
-            alt="Imagem contendo o criador do site, Guiherme, em um fundo com códigos JavaScript"
-            class="img-sobre"
-          />
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <img
+              src="assets/img/background/img-about.png"
+              alt="Imagem contendo o criador do site, Guilherme, em um fundo com códigos JavaScript"
+              class="img-fluid img-sobre mb-5"
+            />
+          </div>
         </div>
-
         <div class="row">
           <div class="col-lg-4 ms-auto">
             <p class="lead">
@@ -227,7 +227,11 @@
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#hobbiesModal1"
+              data-bs-target="#hobbiesModal"
+              data-modal-title="Basquete"
+              data-modal-image="assets/img/portfolio/basket.png"
+              data-modal-alt="Bola de basquete"
+              data-modal-text="Mais do que um esporte, o basquete faz com que eu socialize, aprenda com meus erros e esteja sempre pronto para as adversidades presentes. Pratico o esporte e o consumo de muitas outras formas: videogames, conteúdos digitais e principalmente a NBA. <br /> Time do CORAÇÃO e Jogador PREFERIDO???<br /> Miami Heat, e claro, Dwyane Wade!!!<br />"
             >
               <div
                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -241,7 +245,7 @@
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/basket.png"
-                alt="..."
+                alt="Ícone de uma bola de basquete"
               />
             </div>
           </div>
@@ -250,7 +254,11 @@
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#hobbiesModal2"
+              data-bs-target="#hobbiesModal"
+              data-modal-title="Aquela Gameplay!"
+              data-modal-image="assets/img/portfolio/controller.png"
+              data-modal-alt="Controle de videogame"
+              data-modal-text="Cresci amando os videogames, dos 8-bits aos mais sofisticados gráficos. Além de lazer, uso das minhas jogatinas para me aproximar dos amigos, me divertir e, saciar meus gostos por competições!!!<br /> TOP 3 JOGOS??? <br /> Super Mario Bros; Resident Evil 4; Dragon Ball Z - Budokai Tenkaichi 3;"
             >
               <div
                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -264,7 +272,7 @@
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/controller.png"
-                alt="..."
+                alt="Ícone de um controle de videogame"
               />
             </div>
           </div>
@@ -273,7 +281,11 @@
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#hobbiesModal3"
+              data-bs-target="#hobbiesModal"
+              data-modal-title="Codar, codar e codar!"
+              data-modal-image="assets/img/portfolio/coding.png"
+              data-modal-alt="Tela com código de programação"
+              data-modal-text="Demorei a me acostumar é verdade, mas fiz da programação um hobbie e adotei meus códigos como melhores amigos! É fascinante a maneira com que posso dar vida a minhas ideias e com que me relaxo ao sentar na cadeira, e quebro a cara... opa, acerto todos os meus códigos!!"
             >
               <div
                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -287,7 +299,7 @@
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/coding.png"
-                alt="..."
+                alt="Ícone de um monitor exibindo código"
               />
             </div>
           </div>
@@ -311,24 +323,28 @@
             <h4 class="text-uppercase mb-4">Nas Grandes Mídias</h4>
             <a
               class="btn btn-outline-light btn-social mx-1"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://www.facebook.com/guilherme.cruz.5036459/"
               ><i class="fab fa-fw fa-facebook-f"></i
             ></a>
             <a
               class="btn btn-outline-light btn-social mx-1"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://www.instagram.com/guilhermec_cesar/"
               ><i class="fab fa-fw fa-instagram"></i
             ></a>
             <a
               class="btn btn-outline-light btn-social mx-1"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/guilherme-c-155695181/"
               ><i class="fab fa-fw fa-linkedin-in"></i
             ></a>
             <a
               class="btn btn-outline-light btn-social mx-1"
+              rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/GuilhermeC77"
               ><i class="fab fa-fw fa-github"></i
@@ -340,6 +356,7 @@
             <p class="lead mb-0">
               Clique no link, e seja redirecionado para um bate-papo, pelo seu
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://api.whatsapp.com/send/?phone=5517988269521&text&type=phone_number&app_absent=0"
                 >WhatsApp</a
@@ -356,11 +373,12 @@
         <small>Copyright &copy; Guilherme Cruz - 2023</small>
       </div>
     </div>
+    <!-- Hobbies Modal (Genérico)-->
     <div
       class="portfolio-modal modal fade"
-      id="hobbiesModal1"
+      id="hobbiesModal"
       tabindex="-1"
-      aria-labelledby="hobbiesModal1"
+      aria-labelledby="hobbiesModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog modal-xl">
@@ -380,8 +398,9 @@
                   <!-- Portfolio Modal - Title-->
                   <h2
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="hobbiesModalLabel"
                   >
-                    Basquete
+                    <!-- O título será injetado aqui via JavaScript -->
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -393,393 +412,18 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/basket.png"
-                    alt="..."
+                    class="img-fluid rounded mb-5 portfolio-modal-image"
+                    id="hobbiesModalImage"
+                    src=""
+                    alt=""
                   />
                   <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Mais do que um esporte, o basquete faz com que eu socialize,
-                    aprenda com meus erros e esteja sempre pronto para as
-                    adversidades presentes. Pratico o esporte e o consumo de
-                    muitas outras formas: videogames, conteúdos digitais e
-                    principalmente a NBA.
-                    <br />
-                    Time do CORAÇÃO e Jogador PREFERIDO???<br />
-                    Miami Heat, e claro, Dwyane Wade!!!<br />
+                  <p class="mb-4" id="hobbiesModalText">
+                    <!-- O texto será injetado aqui via JavaScript -->
                   </p>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
                     <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio Modal 1-->
-    <div
-      class="portfolio-modal modal fade"
-      id="hobbiesModal2"
-      tabindex="-1"
-      aria-labelledby="hobbiesModal2"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Aquela Gameplay!
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/controller.png"
-                    alt="..."
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Cresci amando os videogames, dos 8-bits aos mais
-                    sofisticados gráficos. Além de lazer, uso das minhas
-                    jogatinas para me aproximar dos amigos, me divertir e,
-                    saciar meus gostos por competições!!!<br />
-                    TOP 3 JOGOS??? <br />
-                    Super Mario Bros; Resident Evil 4; Dragon Ball Z - Budokai
-                    Tenkaichi 3;
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 2-->
-    <div
-      class="portfolio-modal modal fade"
-      id="hobbiesModal3"
-      tabindex="-1"
-      aria-labelledby="hobbiesModal3"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Codar, codar e codar!
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/coding.png"
-                    alt="..."
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Demorei a me acostumar é verdade, mas fiz da programação um
-                    hobbie e adotei meus códigos como melhores amigos! É
-                    fascinante a maneira com que posso dar vida a minhas ideias
-                    e com que me relaxo ao sentar na cadeira, e quebro a cara...
-                    opa, acerto todos os meus códigos!!
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 3-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal3"
-      tabindex="-1"
-      aria-labelledby="portfolioModal3"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Circus Tent
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/circus.png"
-                    alt="..."
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 4-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal4"
-      tabindex="-1"
-      aria-labelledby="portfolioModal4"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Controller
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/game.png"
-                    alt="..."
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 5-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal5"
-      tabindex="-1"
-      aria-labelledby="portfolioModal5"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Locked Safe
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/safe.png"
-                    alt="..."
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 6-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal6"
-      tabindex="-1"
-      aria-labelledby="portfolioModal6"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Submarine
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/submarine.png"
-                    alt="..."
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
+                    Fechar Janela
                   </button>
                 </div>
               </div>
@@ -792,6 +436,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- Custom JS for Modals -->
+    <script>
+      // Hobbies Modal Dynamic Content
+      const hobbiesModal = document.getElementById("hobbiesModal");
+      hobbiesModal.addEventListener("show.bs.modal", (event) => {
+        // Element that triggered the modal
+        const triggerElement = event.relatedTarget;
+
+        // Extract info from data-* attributes
+        const title = triggerElement.getAttribute("data-modal-title");
+        const imageSrc = triggerElement.getAttribute("data-modal-image");
+        const imageAlt = triggerElement.getAttribute("data-modal-alt");
+        const text = triggerElement.getAttribute("data-modal-text");
+
+        // Update the modal's content.
+        const modalTitle = hobbiesModal.querySelector("#hobbiesModalLabel");
+        const modalImage = hobbiesModal.querySelector("#hobbiesModalImage");
+        const modalText = hobbiesModal.querySelector("#hobbiesModalText");
+
+        modalTitle.textContent = title;
+        modalImage.src = imageSrc;
+        modalImage.alt = imageAlt;
+        modalText.innerHTML = text; // Using innerHTML because the text contains <br> tags
+      });
+    </script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

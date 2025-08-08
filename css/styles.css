@@ -8047,33 +8047,22 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
-.bar {
-  background: #353b48;
-  /* #e36a2d */
-  display: block;
-  height: 20px;
-  border: 1px solid rgba(69, 122, 255 0.3);
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(69, 122, 255 ,0.12), 0 1px 2px rgba(69, 122, 255, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
-}
-
+.bar,
 .bar-blue {
   background: #353b48;
-  /* #e36a2d */
   display: block;
   height: 20px;
-  border: 1px solid rgba(69, 122, 255 0.3);
+  border: 1px solid rgba(69, 122, 255, 0.3);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(69, 122, 255 ,0.12), 0 1px 2px rgba(69, 122, 255, 0.24);
+  box-shadow: 0 1px 3px rgba(69, 122, 255, 0.12),
+    0 1px 2px rgba(69, 122, 255, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 0.1);
 }
 
-.bar:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-    0 1px 2px rgba(0, 10px, 10px, 0.22);
+.bar:hover,
+.bar-blue:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .bar span {
@@ -12021,6 +12010,12 @@ html {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+}
+
+.portfolio-modal-image {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
